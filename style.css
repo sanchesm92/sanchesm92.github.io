@@ -1,8 +1,12 @@
 body{
 
     background-color: rgb(235, 234, 238);
-
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
      }
+
  .nome {
      font-family: Arial, Helvetica, sans-serif
      
@@ -18,7 +22,8 @@ body{
      font-weight: bold;
  }
  .imagens-arredondadas {
-     border-radius: 10%;
+     border-radius: 100%;
+     width: 150px;
  }
  .conhecer{
   
@@ -28,5 +33,46 @@ body{
  .contato{
      font-weight: bold;
  }
-    
+
+li {
+    list-style: none;
+}
+.corpo {
+    overflow: auto;
+    max-height: 70%;
+    max-width: 70%;
+}
+
+ .head {
+     float: left;
+    max-width: 30%;
+    padding: 10px;
+    border-bottom: 3px solid black;
+    border-right: 5px solid black;
+    border-radius: 2%;
+}
  
+.about  {
+   clear: right;
+      
+}
+ .skills {
+    clear: right;
+   
+ }
+ .education {
+    clear: right;
+        
+}
+ .work-experience {
+    clear: right;
+    
+   
+ }
+ .contat {
+    clear: right;
+    
+ }
+ .parceiros {
+    clear: right;
+ }
