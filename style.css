@@ -1,78 +1,151 @@
-body{
-
-    background-color: rgb(235, 234, 238);
-    text-align: center;
-    padding: 0;
+* {
     margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #D5E6E6;
+    border-right: 5px solid black;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 1%;
+    max-height: 100%;
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+    overflow: auto;
+   
+
     
      }
 
- .nome {
-     font-family: Arial, Helvetica, sans-serif
-     
+ .nome {  
  }
- p {
-     font-family: sans-serif;
- }    
- h2 {
-     font-family: Arial, Helvetica, sans-serif;
- }
-     
- li {
-     font-weight: bold;
- }
+   
  .imagens-arredondadas {
      border-radius: 100%;
      width: 150px;
+     border: 1px solid black;
  }
+ .head {
+    background-color: #AFC6C6;
+    color: black;
+    border-bottom: 1px solid black;
+ 
+}
+
+.cor-de-fundo {
+  
+    }
+/* Botões */
+.buttons {
+   
+}
+.botao1 {
+    background-color: black;
+    border-right: 2px solid white;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    left: 25%;    
+    color: white;
+    border-radius: 2%;
+    text-decoration: none;
+}
+.botao2 {
+    background-color: black;
+    border-right: 2px solid white;
+    border: 1px solid white;
+    color: white;
+    padding:5px;
+    position: fixed;    
+    left: 32.4%;  
+    text-decoration: none;  
+}
+.botao3 {
+    background-color: black;
+    border-right: 2px solid white;
+    border: 1px solid white;
+    color: white;
+    padding:5px;
+    position:relative; 
+    right: 13%;
+    bottom: 49px;  
+    text-decoration: none;    
+}
+.botao4 {
+    background-color: black;
+    border-right: 2px solid white;
+    border: 1px solid white;
+    color: white;
+    padding:5px;
+    position:relative; 
+    left: 9.2%;
+    top: 5px; 
+    text-decoration: none;     
+}
+.botao5 {
+    background-color: black;
+    border-right: 2px solid white;
+    border: 1px solid white;
+    color: white;
+    padding:5px;
+    position:relative; 
+    left: 30.5%;
+    bottom: 13px;  
+    text-decoration: none;    
+}
+.botao6 {
+    background-color: black;
+    border-right: 2px solid white;
+    border: 1px solid white;
+    color: white;
+    padding:5px;
+    position:relative; 
+    left: 43%;
+    bottom:31px;  
+    text-decoration: none;    
+    
+}
+
+
  .conhecer{
   
-     font-style: italic;
-     text-decoration: underline;
+    
  }
  .contato{
-     font-weight: bold;
+
  }
 
 li {
-    list-style: none;
+  
 }
 .corpo {
+    background-color: #C1DADA;
+   
     overflow: auto;
-    max-height: 70%;
-    max-width: 70%;
-}
-
- .head {
-     float: left;
-    max-width: 30%;
-    padding: 10px;
-    border-bottom: 3px solid black;
-    border-right: 5px solid black;
-    border-radius: 2%;
+    height: 300px;
+    width: 100%;
 }
  
 .about  {
-   clear: right;
-      
+   
 }
  .skills {
-    clear: right;
-   
+    
  }
  .education {
-    clear: right;
-        
+   
 }
  .work-experience {
-    clear: right;
-    
    
  }
  .contat {
-    clear: right;
+    
     
  }
  .parceiros {
-    clear: right;
+    
  }
