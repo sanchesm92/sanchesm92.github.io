@@ -42,21 +42,24 @@ body{
 .cor-de-fundo {
   
     }
-/* Botões */
-/* .buttons {
-   
+
+.buttons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+.buttons li {
+    
+    display: inline;
 }
+
+
 .botao1 {
     background-color: black;
     border-right: 2px solid white;
     border: 1px solid white;
     color: white;
     padding: 5px;
-    position: absolute;
-    left: 25%;    
-    color: white;
-    border-radius: 2%;
-    text-decoration: none;
+   
 }
 .botao2 {
     background-color: black;
@@ -64,9 +67,7 @@ body{
     border: 1px solid white;
     color: white;
     padding:5px;
-    position: fixed;    
-    left: 32.4%;  
-    text-decoration: none;  
+    text-decoration: none;     
 }
 .botao3 {
     background-color: black;
@@ -74,10 +75,7 @@ body{
     border: 1px solid white;
     color: white;
     padding:5px;
-    position:relative; 
-    right: 13%;
-    bottom: 49px;  
-    text-decoration: none;    
+    text-decoration: none;     
 }
 .botao4 {
     background-color: black;
@@ -85,10 +83,8 @@ body{
     border: 1px solid white;
     color: white;
     padding:5px;
-    position:relative; 
-    left: 9.2%;
-    top: 5px; 
     text-decoration: none;     
+    
 }
 .botao5 {
     background-color: black;
@@ -96,9 +92,7 @@ body{
     border: 1px solid white;
     color: white;
     padding:5px;
-    position:relative; 
-    left: 30.5%;
-    bottom: 13px;  
+
     text-decoration: none;    
 }
 .botao6 {
@@ -107,12 +101,10 @@ body{
     border: 1px solid white;
     color: white;
     padding:5px;
-    position:relative; 
-    left: 43%;
-    bottom:31px;  
+ 
     text-decoration: none;    
     
-} */
+} 
 
 
  .conhecer{
@@ -130,7 +122,7 @@ li {
     background-color: #C1DADA;
    
     overflow: auto;
-    height: 300px;
+    height: 350px;
     width: 100%;
 }
  
