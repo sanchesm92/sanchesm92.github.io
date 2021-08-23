@@ -58,7 +58,9 @@ body{
     border-right: 2px solid white;
     border: 1px solid white;
     color: white;
+    margin: 3px;
     padding: 5px;
+    text-decoration: none;
    
 }
 .botao2 {
@@ -66,33 +68,35 @@ body{
     border-right: 2px solid white;
     border: 1px solid white;
     color: white;
+    margin: 3px;  
     padding:5px;
-    text-decoration: none;     
+    text-decoration: none;   
 }
 .botao3 {
     background-color: black;
     border-right: 2px solid white;
     border: 1px solid white;
     color: white;
+    margin: 3px; 
     padding:5px;
-    text-decoration: none;     
+    text-decoration: none;    
 }
 .botao4 {
     background-color: black;
     border-right: 2px solid white;
     border: 1px solid white;
     color: white;
+    margin: 3px;
     padding:5px;
     text-decoration: none;     
-    
 }
 .botao5 {
     background-color: black;
     border-right: 2px solid white;
     border: 1px solid white;
     color: white;
+    margin: 3px;
     padding:5px;
-
     text-decoration: none;    
 }
 .botao6 {
@@ -100,8 +104,8 @@ body{
     border-right: 2px solid white;
     border: 1px solid white;
     color: white;
+    margin: 3px;
     padding:5px;
- 
     text-decoration: none;    
     
 } 
